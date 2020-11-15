@@ -41,8 +41,8 @@ endif
 all: 327_proj3_test
 
 dependents:
-	-cd /home/vishalfenn/Documents/cpsc/327/327_proj3_fileIO/Debug && $(MAKE) clean all
-	-cd /home/vishalfenn/Documents/cpsc/327/327_proj3_stringparser/Debug && $(MAKE) clean all
+	-cd /home/vishalfenn/Documents/cpsc/327/327_proj3_fileIO/Debug && $(MAKE) all
+	-cd /home/vishalfenn/Documents/cpsc/327/327_proj3_stringparser/Debug && $(MAKE) all
 
 # Tool invocations
 327_proj3_test: $(OBJS) $(USER_OBJS) /home/vishalfenn/Documents/cpsc/327/327_proj3_fileIO/Debug/lib327_proj3_fileIO.a /home/vishalfenn/Documents/cpsc/327/327_proj3_stringparser/Debug/lib327_proj3_stringparser.a
